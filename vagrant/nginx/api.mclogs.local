@@ -2,7 +2,7 @@ server {
     listen 80;
     sendfile off;
 
-    server_name api.mclogs.local;
+    server_name api.logs.lianmoe.cn;
 
     root /web/mclogs/api/public;
 
