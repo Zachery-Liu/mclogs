@@ -4,7 +4,7 @@ server {
 
     server_name logs.lianmoe.cn;
 
-    root /web/mclogs/web/public;
+    root /root/mclogs/web/public;
 
     error_log /var/log/nginx/mclogs-error.log error;
 
