@@ -2,10 +2,10 @@
 $id = new Id(substr($_SERVER['REQUEST_URI'], 1));
 $log = new Log($id);
 
-$title = "mclo.gs - Paste, share & analyse your Minecraft logs";
-$description = "Easily paste your Minecraft logs to share and analyse them.";
+$title = "联萌 Log - 轻松粘贴、分享并自动分析您的 MC 日志";
+$description = "轻松粘贴、分享并自动分析您的 MC 日志。";
 if (!$log->exists()) {
-    $title = "Log not found - mclo.gs";
+    $title = "未找到日志文件 - 联萌 Log";
     http_response_code(404);
 } else {
     $codexLog = $log->get();
@@ -81,10 +81,10 @@ if (!$log->exists()) {
                 </a>
                 <div class="menu">
                     <a class="menu-item" href="/#info">
-                        <i class="fa fa-info-circle"></i> Info
+                        <i class="fa fa-info-circle"></i> 介绍
                     </a>
                     <a class="menu-item" href="/#plugin">
-                        <i class="fa fa-database"></i> Plugin
+                        <i class="fa fa-database"></i> 插件
                     </a>
                     <a class="menu-item" href="/#mod">
                         <i class="fa fa-puzzle-piece"></i> Mod
@@ -92,7 +92,7 @@ if (!$log->exists()) {
                     <a class="menu-item" href="/#api">
                         <i class="fa fa-code"></i> API
                     </a>
-                    <a class="menu-social btn btn-black btn-notext btn-large btn-no-margin" href="https://github.com/aternosorg/mclogs" target="_blank">
+                    <a class="menu-social btn btn-black btn-notext btn-large btn-no-margin" href="https://github.com/Zacher-Liu/mclogs" target="_blank">
                         <i class="fab fa-github"></i>
                     </a>
                 </div>
@@ -121,7 +121,7 @@ if (!$log->exists()) {
                 </div>
                 <?php if(count($analysis) > 0): ?>
                     <div class="analysis">
-                        <div class="analysis-headline"><i class="fa fa-info-circle"></i> Analysis</div>
+                        <div class="analysis-headline"><i class="fa fa-info-circle"></i> 分析</div>
                         <?php if(count($information) > 0): ?>
                             <div class="information-list">
                                 <?php foreach($information as $info): ?>
@@ -182,11 +182,11 @@ if (!$log->exists()) {
                 </div>
                 <?php else: ?>
                 <div class="not-found">
-                    <div class="not-found-title">404 - Log not found.</div>
-                    <div class="not-found-text">The log you try to open does not exist (anymore).<br />We automatically delete all logs that weren't opened in the last 90 days.</div>
+                    <div class="not-found-title">404 - 未找到日志文件。</div>
+                    <div class="not-found-text">该日志文件不存在 <del>(也许曾经存在过)</del>。<br />系统会自动删除90天内未打开过的日志文件。</div>
                     <div class="not-found-buttons">
                         <a href="/" class="btn btn-no-margin btn-blue btn-small">
-                            <i class="fa fa-home"></i> Paste a new log
+                            <i class="fa fa-home"></i> 粘贴新的日志
                         </a>
                     </div>
                 </div>
@@ -196,16 +196,14 @@ if (!$log->exists()) {
         <?php if($log->exists()): ?>
         <div class="row row-notice dark">
             <div class="row-inner">
-                This log will be saved for 90 days from their last view.<br />
-                <a href="mailto:abuse@aternos.org?subject=Report%20mclo.gs/<?=$id->get(); ?>">Report abuse</a>
+                该日志文件将会在最后一次访问之后90天删除。<br />
+                <a href="mailto:lianmoe@outlook.com?subject=举报%20不当文件/<?=$id->get(); ?>">举报不当文件</a>
             </div>
         </div>
         <?php endif; ?>
         <div class="row footer">
             <div class="row-inner">
-                &copy; 2017-<?=date("Y"); ?> by mclo.gs - a service by <a target="_blank" href="https://aternos.org">Aternos</a> |
-                <a target="_blank" href="https://aternos.gmbh/imprint">Imprint</a> |
-                <a target="_blank" href="https://aternos.gmbh/en/mclogs/privacy">Privacy</a>
+            &copy; 2020-<?=date("Y"); ?> <a href="https://www.lianmoe.cn">联萌社区</a>
             </div>
         </div>
         <script src="js/logview.js?v=130221"></script>
