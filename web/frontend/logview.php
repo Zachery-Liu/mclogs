@@ -2,10 +2,10 @@
 $id = new Id(substr($_SERVER['REQUEST_URI'], 1));
 $log = new Log($id);
 
-$title = "联萌Log";
+$title = "联萌日志服务";
 $description = "轻松粘贴、自动分析并分享您的 MC 日志。";
 if (!$log->exists()) {
-    $title = "未找到日志文件 - 联萌Log";
+    $title = "未找到日志文件 - 联萌日志服务";
     http_response_code(404);
 } else {
     $codexLog = $log->get();
@@ -39,7 +39,7 @@ if (!$log->exists()) {
         <meta charset="utf-8" />
         <meta name="theme-color" content="#2d3943" />
 
-        <title><?=$title; ?> - 联萌Log</title>
+        <title><?=$title; ?> - 联萌日志服务</title>
 
         <base href="/" />
 
@@ -60,18 +60,6 @@ if (!$log->exists()) {
         <meta property="og:description" content="<?=$description; ?>" />
         <meta property="og:url" content="https://logs.lianmoe.cn/<?=$id->get(); ?>" />
 
-        <script>
-            let _paq = window._paq = window._paq || [];
-            _paq.push(['disableCookies']);
-            _paq.push(['trackPageView']);
-            _paq.push(['enableLinkTracking']);
-            (function() {
-                _paq.push(['setTrackerUrl', '/data']);
-                _paq.push(['setSiteId', '5']);
-                let d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-                g.async=true; g.src='/data.js'; s.parentNode.insertBefore(g,s);
-            })();
-        </script>
     </head>
     <body class="log-body">
         <header class="row navigation">

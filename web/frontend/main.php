@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="theme-color" content="#2d3943" />
 
-        <title>联萌Log - 轻松粘贴、自动分析并分享您的 MC 日志</title>
+        <title>联萌日志服务 - 轻松粘贴、自动分析并分享您的 MC 日志</title>
 
         <base href="/" />
 
@@ -18,18 +18,6 @@
         <meta name="description" content="轻松粘贴、自动分析并分享您的 MC 日志">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-        <script>
-            let _paq = window._paq = window._paq || [];
-            _paq.push(['disableCookies']);
-            _paq.push(['trackPageView']);
-            _paq.push(['enableLinkTracking']);
-            (function() {
-                _paq.push(['setTrackerUrl', '/data']);
-                _paq.push(['setSiteId', '5']);
-                let d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-                g.async=true; g.src='/data.js'; s.parentNode.insertBefore(g,s);
-            })();
-        </script>
     </head>
     <body>
         <header class="row navigation">

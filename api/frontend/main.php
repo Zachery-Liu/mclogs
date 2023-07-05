@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="//fonts.geekzu.org/css?family=Play:400,700">
         <link href="https://fonts.geekzu.org/css?family=Roboto+Mono:300,400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet" />
 
-        <title>API 文档 - 联萌Log</title>
+        <title>API 文档 - 联萌日志服务</title>
 
         <base href="//<?=str_replace("api.", "", $_SERVER['HTTP_HOST']); ?>/" />
 
@@ -20,18 +20,6 @@
         <meta name="description" content="轻松粘贴你的Minecraft日志以分享和分析它们。">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-        <script>
-            let _paq = window._paq = window._paq || [];
-            _paq.push(['disableCookies']);
-            _paq.push(['trackPageView']);
-            _paq.push(['enableLinkTracking']);
-            (function() {
-                _paq.push(['setTrackerUrl', '/data']);
-                _paq.push(['setSiteId', '5']);
-                let d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-                g.async=true; g.src='/data.js'; s.parentNode.insertBefore(g,s);
-            })();
-        </script>
     </head>
     <body>
         <header class="row navigation">
