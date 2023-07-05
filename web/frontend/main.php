@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="theme-color" content="#2d3943" />
 
-        <title>联萌Log - 轻松粘贴、分享并自动分析您的 MC 日志</title>
+        <title>联萌日志 - 轻松粘贴、自动分析并分享您的 MC 日志</title>
 
         <base href="/" />
 
@@ -15,7 +15,7 @@
 
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 
-        <meta name="description" content="轻松粘贴、分享并自动分析您的 MC 日志。">
+        <meta name="description" content="轻松粘贴、自动分析并分享您的 MC 日志">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
         <script>
@@ -45,7 +45,7 @@
                         <i class="fa fa-database"></i> 插件
                     </a>
                     <a class="menu-item" href="/#mod">
-                        <i class="fa fa-puzzle-piece"></i> Mod
+                        <i class="fa fa-puzzle-piece"></i> 模组
                     </a>
                     <a class="menu-item" href="/#api">
                         <i class="fa fa-code"></i> API
@@ -132,33 +132,14 @@
             <div class="row-inner">
                 <div class="article left">
                     <div class="article-icon">
-                        <i class="fa fa-database"></i>
+                        <i class="fa fa-clone"></i>
                     </div>
                     <div class="article-info">
                         <div class="article-title">
-                            使用我们的插件
+                            粘贴您的日志文件
                         </div>
                         <div class="article-text">
-                        有了我们的插件，您可以用一个简单的命令直接从您的服务器分享您的Minecraft日志。使用权限，与其他团队成员分享权力，共同解决问题。
-                        它甚至可以导出旧的服务器日志文件，例如在崩溃之后。像IP地址这样的关键信息会自动隐藏起来，以确保安全和隐私。 <br>
-                        <strong>（还未完成集成,此部分功能请使用 <a href="https://mclo.gs">mclo.gs</a>）</strong>
-                        </div>
-                        <div class="article-buttons">
-                            <a href="https://modrinth.com/plugin/mclogs" target="_blank" class="btn btn-blue btn-no-margin">
-                                <i class="fa fa-download"></i> modrinth.com
-                            </a>
-                            <a href="https://hangar.papermc.io/Aternos/mclogs" target="_blank" class="btn btn-blue btn-no-margin">
-                                <i class="fa fa-download"></i> hangar.papermc.io
-                            </a>
-                            <a href="https://dev.bukkit.org/projects/mclogs" target="_blank" class="btn btn-blue btn-no-margin">
-                                <i class="fa fa-download"></i> dev.bukkit.org
-                            </a>
-                            <a href="https://www.spigotmc.org/resources/mclo-gs.47502/" target="_blank" class="btn btn-blue btn-no-margin">
-                                <i class="fa fa-download"></i> spigotmc.org
-                            </a>
-                            <a href="https://github.com/aternosorg/mclogs-bukkit" target="_blank" class="btn btn-blue btn-no-margin">
-                                <i class="fab fa-github"></i> github.com
-                            </a>
+                        根据您的情况……（未完成） <br>
                         </div>
                     </div>
                 </div>
