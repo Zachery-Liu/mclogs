@@ -124,10 +124,11 @@
                     </div>
                     <div class="article-info">
                         <div class="article-title">
-                            粘贴您的日志文件
+                            一、粘贴并保存您的日志
                         </div>
                         <div class="article-text">
-                        根据您的情况……（未完成） <br>
+                        打开任意一个文本编辑器（例如记事本），并将您想要打开的日志文件拖入文本编辑器的窗口中即可打开<br>
+                        打开后，全选（ctrl+a），复制（ctrl+c），再回到本网站，在主页中的<strong>输入窗口</strong>中粘贴（ctrl+v），最后再点击<strong>输入窗口</strong>右下角的保存<br>
                         </div>
                     </div>
                 </div>
