@@ -2,10 +2,10 @@
 $id = new Id(substr($_SERVER['REQUEST_URI'], 1));
 $log = new Log($id);
 
-$title = "联萌 Log - 轻松粘贴、分享并自动分析您的 MC 日志";
-$description = "轻松粘贴、分享并自动分析您的 MC 日志。";
+$title = "联萌日志";
+$description = "轻松粘贴、自动分析并分享您的 MC 日志。";
 if (!$log->exists()) {
-    $title = "未找到日志文件 - 联萌 Log";
+    $title = "未找到日志文件 - 联萌日志";
     http_response_code(404);
 } else {
     $codexLog = $log->get();
