@@ -1,6 +1,6 @@
 const titles = ["粘贴", "分享", "分析"];
 let currentTitle = 0;
-let speed = 30;
+let speed = 3;
 let pause = 3000;
 const pasteArea = document.getElementById('paste');
 const titleElement = document.querySelector('.title-verb');
