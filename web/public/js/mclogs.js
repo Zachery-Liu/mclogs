@@ -1,4 +1,4 @@
-const titles = ["Paste", "Share", "Analyse"];
+const titles = ["粘贴", "分享", "分析"];
 let currentTitle = 0;
 let speed = 30;
 let pause = 3000;
@@ -78,27 +78,27 @@ async function sendLog() {
             data = await response.json();
         }
         catch (e) {
-            console.error("Failed to parse JSON returned by API", e);
-            handleUploadError("API returned invalid JSON");
+            console.error("解析 API 返回的 JSON 文件失败", e);
+            handleUploadError("API 返回了无效的 JSON");
             return;
         }
 
         if (typeof data === 'object' && !data.success && data.error) {
-            console.error(new Error("API returned an error"), data.error);
+            console.error(new Error("API 返回了一个错误"), data.error);
             handleUploadError(data.error);
             return;
         }
 
         if (typeof data !== 'object' || !data.success || !data.id) {
-            console.error(new Error("API returned an invalid response"), data);
-            handleUploadError("API returned an invalid response");
+            console.error(new Error("API 返回了一个无效的响应"), data);
+            handleUploadError("API 返回了一个无效的响应");
             return;
         }
 
         location.href = `/${data.id}`;
     }
     catch (e) {
-        handleUploadError("Network error");
+        handleUploadError("网络异常");
     }
 }
 

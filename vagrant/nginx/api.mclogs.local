@@ -4,7 +4,7 @@ server {
 
     server_name api.logs.lianmoe.cn;
 
-    root /root/mclogs/api/public;
+    root /web/log/api/public;
 
     error_log /var/log/nginx/api-mclogs-error.log error;
 

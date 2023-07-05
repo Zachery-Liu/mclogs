@@ -59,7 +59,7 @@
         <div class="row dark title">
             <div class="row-inner">
                 <h1 class="title-container">
-                    <span class="title-verb">Paste</span> 您的 Minecraft 日志.
+                    <span class="title-verb">粘贴</span> 您的 Minecraft 日志.
                 </h1>
             </div>
         </div>

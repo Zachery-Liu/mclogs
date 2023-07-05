@@ -121,7 +121,7 @@ if (!$log->exists()) {
                 </div>
                 <?php if(count($analysis) > 0): ?>
                     <div class="analysis">
-                        <div class="analysis-headline"><i class="fa fa-info-circle"></i> 分析</div>
+                        <div class="analysis-headline"><i class="fa fa-info-circle"></i> 信息</div>
                         <?php if(count($information) > 0): ?>
                             <div class="information-list">
                                 <?php foreach($information as $info): ?>
