@@ -228,7 +228,7 @@
         </div>
         <div class="row footer">
             <div class="row-inner">
-                &copy; 2020-<?=date("Y"); ?> <a href="https://www.lianmoe.cn">联萌社区</a>
+                &copy; 2020-<?=date("Y"); ?> <a href="https://www.lianmoe.cn">联萌社区</a> | <a href="https://mclo.gs">mclo.gs</a>
             </div>
         </div>
     </body>

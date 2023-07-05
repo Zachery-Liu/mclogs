@@ -2,10 +2,10 @@
 $id = new Id(substr($_SERVER['REQUEST_URI'], 1));
 $log = new Log($id);
 
-$title = "联萌日志";
+$title = "联萌Log";
 $description = "轻松粘贴、自动分析并分享您的 MC 日志。";
 if (!$log->exists()) {
-    $title = "未找到日志文件 - 联萌日志";
+    $title = "未找到日志文件 - 联萌Log";
     http_response_code(404);
 } else {
     $codexLog = $log->get();
@@ -203,7 +203,7 @@ if (!$log->exists()) {
         <?php endif; ?>
         <div class="row footer">
             <div class="row-inner">
-            &copy; 2020-<?=date("Y"); ?> <a href="https://www.lianmoe.cn">联萌社区</a>
+                &copy; 2020-<?=date("Y"); ?> <a href="https://www.lianmoe.cn">联萌社区</a> | <a href="https://mclo.gs/">mclo.gs</a>
             </div>
         </div>
         <script src="js/logview.js?v=130221"></script>

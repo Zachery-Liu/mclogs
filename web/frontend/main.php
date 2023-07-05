@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="theme-color" content="#2d3943" />
 
-        <title>联萌日志 - 轻松粘贴、自动分析并分享您的 MC 日志</title>
+        <title>联萌Log - 轻松粘贴、自动分析并分享您的 MC 日志</title>
 
         <base href="/" />
 
@@ -201,7 +201,7 @@
         </div>
         <div class="row footer">
             <div class="row-inner">
-            &copy; 2020-<?=date("Y"); ?> <a href="https://www.lianmoe.cn">联萌社区</a>
+                &copy; 2020-<?=date("Y"); ?> <a href="https://www.lianmoe.cn">联萌社区</a> | <a href="https://mclo.gs/">mclo.gs</a>
             </div>
         </div>
         <script src="js/mclogs.js?v=130221"></script>
