@@ -140,8 +140,8 @@
                         </div>
                         <div class="article-text">
                         有了我们的插件，您可以用一个简单的命令直接从您的服务器分享您的Minecraft日志。使用权限，与其他团队成员分享权力，共同解决问题。
-                        它甚至可以导出旧的服务器日志文件，例如在崩溃之后。像IP地址这样的关键信息会自动隐藏起来，以确保安全和隐私。
-                        （还未完成集成,此部分功能请使用 <a href="https://mclo.gs">mclo.gs</a>）
+                        它甚至可以导出旧的服务器日志文件，例如在崩溃之后。像IP地址这样的关键信息会自动隐藏起来，以确保安全和隐私。 <br>
+                        <strong>（还未完成集成,此部分功能请使用 <a href="https://mclo.gs">mclo.gs</a>）</strong>
                         </div>
                         <div class="article-buttons">
                             <a href="https://modrinth.com/plugin/mclogs" target="_blank" class="btn btn-blue btn-no-margin">
@@ -175,8 +175,8 @@
                             使用我们的模组
                         </div>
                         <div class="article-text">
-                        我们也有基于 Forge 和 Fabric 的mod，所以您可以用您最喜欢的 Mod API 来使用它。它是完全服务器端的并具有与该插件相同的功能。
-                        （还未完成集成,此部分功能请使用 <a href="https://mclo.gs">mclo.gs</a>）
+                        我们也有基于 Forge 和 Fabric 的mod，所以您可以用您最喜欢的 Mod API 来使用它。它是完全服务器端的并具有与该插件相同的功能。<br>
+                        <strong>（还未完成集成,此部分功能请使用 <a href="https://mclo.gs">mclo.gs</a>）</strong>
                         </div>
                         <div class="article-buttons">
                             <a href="https://modrinth.com/mod/mclogs" target="_blank" class="btn btn-blue btn-no-margin">

@@ -5,8 +5,18 @@ namespace Filter\Pre;
 class UserPath implements PreFilterInterface
 {
     protected const USER_PATH_PATTERNS = [
-        "/C:\\\\Users\\\\([^\\\\]+)\\\\/" => "C:\\Users\\********\\", // windows
-        "/C:\\/Users\\/([^\\/]+)\\//" => "C:/Users/********/", // windows with forward slashes
+        "/C:\\\\Users\\\\([^\\\\]+)\\\\/" => "X:\\Users\\********\\", // windows
+        "/D:\\\\Users\\\\([^\\\\]+)\\\\/" => "X:\\Users\\********\\",
+        "/E:\\\\Users\\\\([^\\\\]+)\\\\/" => "X:\\Users\\********\\",
+        "/F:\\\\Users\\\\([^\\\\]+)\\\\/" => "X:\\Users\\********\\",
+        "/G:\\\\Users\\\\([^\\\\]+)\\\\/" => "X:\\Users\\********\\",
+        "/H:\\\\Users\\\\([^\\\\]+)\\\\/" => "X:\\Users\\********\\",
+        "/C:\\/Users\\/([^\\/]+)\\//" => "X:/Users/********/", // windows with forward slashes
+        "/D:\\/Users\\/([^\\/]+)\\//" => "X:/Users/********/",
+        "/E:\\/Users\\/([^\\/]+)\\//" => "X:/Users/********/",
+        "/F:\\/Users\\/([^\\/]+)\\//" => "X:/Users/********/",
+        "/G:\\/Users\\/([^\\/]+)\\//" => "X:/Users/********/",
+        "/H:\\/Users\\/([^\\/]+)\\//" => "X:/Users/********/",
         "/(?<!\\w)\\/home\\/[^\\/]+\\//" => "/home/********/", // linux
         "/(?<!\\w)\\/Users\\/[^\\/]+\\//" => "/Users/********/" // macos
     ];

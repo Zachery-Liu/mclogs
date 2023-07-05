@@ -39,7 +39,7 @@ if (!$log->exists()) {
         <meta charset="utf-8" />
         <meta name="theme-color" content="#2d3943" />
 
-        <title><?=$title; ?> - mclo.gs</title>
+        <title><?=$title; ?> - 联萌Log</title>
 
         <base href="/" />
 
@@ -55,10 +55,10 @@ if (!$log->exists()) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
         <meta property="og:type" content="website" />
-        <meta property="og:site_name" content="mclo.gs" />
+        <meta property="og:site_name" content="logs.lianmoe.cn" />
         <meta property="og:title" content="<?=$title; ?>" />
         <meta property="og:description" content="<?=$description; ?>" />
-        <meta property="og:url" content="https://mclo.gs/<?=$id->get(); ?>" />
+        <meta property="og:url" content="https://logs.lianmoe.cn/<?=$id->get(); ?>" />
 
         <script>
             let _paq = window._paq = window._paq || [];
