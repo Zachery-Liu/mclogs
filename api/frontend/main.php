@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="//fonts.geekzu.org/css?family=Play:400,700">
         <link href="https://fonts.geekzu.org/css?family=Roboto+Mono:300,400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet" />
 
-        <title>API Documentation - mclo.gs</title>
+        <title>API 文档 - 联萌Log</title>
 
         <base href="//<?=str_replace("api.", "", $_SERVER['HTTP_HOST']); ?>/" />
 
@@ -131,10 +131,10 @@
             <div class="row-inner">
                 <h2>获取日志分析</h2>
 
-                <div class="endpoint">ß
+                <div class="endpoint">
                     <span class="method">GET</span> <span class="endpoint-url">https://api.logs.lianmoe.cn/1/insights/[id]</span>
                 </div>
-                <table class="endpoint-table">ß
+                <table class="endpoint-table">
                     <tr>
                         <th>字段</th>
                         <th>类型</th>
