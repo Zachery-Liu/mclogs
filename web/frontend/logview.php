@@ -89,7 +89,7 @@ if (!$log->exists()) {
                     <a class="menu-item" href="/#mod">
                         <i class="fa fa-puzzle-piece"></i> Mod
                     </a>
-                    <a class="menu-item" href="/#api">
+                    <a class="menu-item" href="https://api.logs.lianmoe.cn/">
                         <i class="fa fa-code"></i> API
                     </a>
                     <a class="menu-social btn btn-black btn-notext btn-large btn-no-margin" href="https://github.com/Zacher-Liu/mclogs" target="_blank">
