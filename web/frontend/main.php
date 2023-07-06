@@ -54,7 +54,7 @@
                 <div class="paste-box">
                     <div class="paste-header">
                         <div class="paste-header-text">
-                            将您的日志文件拖到文本框内 或 <span class="btn btn-small btn-no-margin" id="paste-select-file"><i class="fa fa-file-import"></i> 选择文件</span>
+                            将日志文件拖到文本框内 或 <span class="btn btn-small btn-no-margin" id="paste-select-file"><i class="fa fa-file-import"></i> 选择文件</span>
                         </div>
                         <div class="paste-save btn btn-green btn-no-margin">
                             <i class="fa fa-save"></i> 保存
@@ -126,6 +126,10 @@
                         </div>
                         <div class="article-text">
                         将日志文件拖入框中，直接单击保存即可轻松将您的日志文件上传到我们的服务器中。<br>
+                                <div class="article-buttons">
+                            <a href="/" target="_blank" class="btn btn-blue btn-no-margin">
+                                <i class="fa fa-book"></i> 查看详细指引
+                                </div>
                         </div>
                     </div>
                 </div>
