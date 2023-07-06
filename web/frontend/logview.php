@@ -124,6 +124,7 @@ if (!$log->exists()) {
                                 <?php endforeach; ?>
                             </div>
                         <?php endif; ?>
+                        <?php \Aternos\Codex\Minecraft\Translator\Translator::getInstance()->setLanguage("zh-CN"); ?>
                         <?php if(count($problems) > 0): ?>
                             <div class="problem-list">
                                 <?php foreach($problems as $problem): ?>
