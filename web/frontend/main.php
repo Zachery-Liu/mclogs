@@ -30,13 +30,10 @@
                     <a class="menu-item" href="/#info">
                         <i class="fa fa-info-circle"></i> 介绍
                     </a>
-                    <a class="menu-item" href="/#plugin">
-                        <i class="fa fa-database"></i> 插件
+                    <a class="menu-item" href="/#about">
+                        <i class="fa fa-puzzle-piece"></i> 关于
                     </a>
-                    <a class="menu-item" href="/#mod">
-                        <i class="fa fa-puzzle-piece"></i> 模组
-                    </a>
-                    <a class="menu-item" href="/#api">
+                    <a class="menu-item" href="https://api.logs.lianmoe.cn/">
                         <i class="fa fa-code"></i> API
                     </a>
                     <a class="menu-social btn btn-black btn-notext btn-large btn-no-margin" href="https://github.com/Zachery-Liu/mclogs" target="_blank">
@@ -85,7 +82,7 @@
                             粘贴
                         </div>
                         <div class="info-text">
-                        轻松地从任何来源粘贴您的Minecraft日志文件到这里。IP地址等关键信息会自动隐藏。
+                        轻松地从任何来源粘贴您的Minecraft日志文件到这里并保存。IP地址等关键信息将会自己「藏」起来。
                         </div>
                     </div>
                 </div>
@@ -98,7 +95,7 @@
                             分享
                         </div>
                         <div class="info-text">
-                            使用分享网址分享您的Minecraft日志并与他人一起寻找解决方案。
+                            使用分享网址分享您的Minecraft日志并与他人「有难同当」。
                         </div>
                     </div>
                 </div>
@@ -111,13 +108,13 @@
                             分析
                         </div>
                         <div class="info-text">
-                            通过智能分析和语法高亮，自动在您的Minecraft日志中找到问题。
+                            通过智能分析和语法高亮，日志中的问题「无处可藏」。
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row dark plugin" id="plugin">
+        <div class="row dark plugin" id="save">
             <div class="row-inner">
                 <div class="article left">
                     <div class="article-icon">
@@ -125,49 +122,33 @@
                     </div>
                     <div class="article-info">
                         <div class="article-title">
-                            一、粘贴并保存您的日志
+                            拖拉拽保存一气呵成！
                         </div>
                         <div class="article-text">
-                        打开任意一个文本编辑器（例如记事本），并将您想要打开的日志文件拖入文本编辑器的窗口中即可打开<br>
-                        打开后，全选（ctrl+a），复制（ctrl+c），再回到本网站，在主页中的<strong>输入窗口</strong>中粘贴（ctrl+v），最后再点击<strong>输入窗口</strong>右下角的保存<br>
+                        将日志文件拖入框中，直接单击保存即可轻松将您的日志文件上传到我们的服务器中。<br>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row mod" id="mod">
+        <div class="row mod" id="90d">
             <div class="row-inner">
                 <div class="article right">
                     <div class="article-icon">
-                        <i class="fa fa-puzzle-piece"></i>
+                        <i class="fa fa-database"></i>
                     </div>
                     <div class="article-info">
                         <div class="article-title">
-                            使用我们的模组
+                            您的日志在我们这里「住」得很好！
                         </div>
                         <div class="article-text">
-                        我们也有基于 Forge 和 Fabric 的mod，所以您可以用您最喜欢的 Mod API 来使用它。它是完全服务器端的并具有与该插件相同的功能。<br>
-                        <strong>（还未完成集成,此部分功能请使用 <a href="https://mclo.gs">mclo.gs</a>）</strong>
-                        </div>
-                        <div class="article-buttons">
-                            <a href="https://modrinth.com/mod/mclogs" target="_blank" class="btn btn-blue btn-no-margin">
-                                <i class="fa fa-download"></i> modrinth.com
-                            </a>
-                            <a href="https://www.curseforge.com/minecraft/mc-mods/mclo-gs" target="_blank" class="btn btn-blue btn-no-margin">
-                                <i class="fa fa-download"></i> curseforge.com
-                            </a>
-                            <a href="https://github.com/aternosorg/mclogs-forge" target="_blank" class="btn btn-blue btn-no-margin">
-                                <i class="fab fa-github"></i> Forge
-                            </a>
-                            <a href="https://github.com/aternosorg/mclogs-fabric" target="_blank" class="btn btn-blue btn-no-margin">
-                                <i class="fab fa-github"></i> Fabric
-                            </a>
+                        您的日志将在这里「住」满90天，如果无人问津，我们只能将它们「扫地出门」，并为您的下一个日志腾出空间。<br>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row dark api" id="api">
+        <div class="row dark api" id="about">
             <div class="row-inner">
                 <div class="article left">
                     <div class="article-icon">
@@ -175,14 +156,20 @@
                     </div>
                     <div class="article-info">
                         <div class="article-title">
-                            使用我们的 API
+                            查看我们的其他内容？
                         </div>
                         <div class="article-text">
-                            将<strong>API</strong>直接集成到您的服务器面板或其他软件中。这个平台是为高性能的自动化而建立的，可以轻松地将我们的HTTP API集成到任何现有的软件中。
+                            联萌社区还有「一揽子」其他项目等你去探索！
                         </div>
                         <div class="article-buttons">
-                            <a href="https://api.logs.lianmoe.cn/" class="btn btn-blue btn-no-margin">
-                                <i class="fa fa-book"></i> API 文档
+                            <a href="https://www.lianmoe.cn/" target="_blank" class="btn btn-blue btn-no-margin">
+                                <i class="fa fa-book"></i> 官网
+                            </a>
+                            <a href="https://tutorial.lianmoe.cn/" target="_blank" class="btn btn-blue btn-no-margin">
+                                <i class="fa fa-book"></i> 社区教程项目
+                            </a>
+                            <a href="https://qm.qq.com/cgi-bin/qm/qr?authKey=aifKEcRSapH3pgCIIQ58qJmRs0QtiiNkeiMK3eldabfI0TJGYKje5YMgP%2FVjTFRY&k=YdLYzpkxXUwwlie6HJ1GjcnC0BgWN3es&noverify=0&group_code=749988690" target="_blank" class="btn btn-blue btn-no-margin">
+                                <i class="fa fa-book"></i> 加入 QQ 群
                             </a>
                         </div>
                     </div>
