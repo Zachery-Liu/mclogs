@@ -12,8 +12,8 @@
         <link href="https://fonts.geekzu.org/css?family=Roboto+Mono:300,400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <link rel="stylesheet" href="css/btn.css" />
-        <link rel="stylesheet" href="css/mclogs.css" />
-        
+        <link rel="stylesheet" href="css/mclogs.css?v=071222" />
+
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 
         <meta name="description" content="轻松粘贴、自动分析并分享您的 MC 日志">
