@@ -1,6 +1,9 @@
 <?php
+use Aternos\Codex\Minecraft\Translator\Translator;
 $id = new Id(substr($_SERVER['REQUEST_URI'], 1));
 $log = new Log($id);
+
+Translator::getInstance()->setLanguage("zh-CN");
 
 $title = "联萌日志服务";
 $description = "轻松粘贴、自动分析并分享您的 MC 日志。";
@@ -124,7 +127,6 @@ if (!$log->exists()) {
                                 <?php endforeach; ?>
                             </div>
                         <?php endif; ?>
-                        <?php \Aternos\Codex\Minecraft\Translator\Translator::getInstance()->setLanguage("zh-CN"); ?>
                         <?php if(count($problems) > 0): ?>
                             <div class="problem-list">
                                 <?php foreach($problems as $problem): ?>
