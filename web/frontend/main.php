@@ -163,13 +163,13 @@
                         </div>
                         <div class="article-buttons">
                             <a href="https://www.lianmoe.cn/" target="_blank" class="btn btn-blue btn-no-margin">
-                                <i class="fa fa-book"></i> 官网
+                                <i class="fa fa-earth-asia"></i> 官网
                             </a>
                             <a href="https://tutorial.lianmoe.cn/" target="_blank" class="btn btn-blue btn-no-margin">
                                 <i class="fa fa-book"></i> 社区教程项目
                             </a>
                             <a href="https://qm.qq.com/cgi-bin/qm/qr?authKey=aifKEcRSapH3pgCIIQ58qJmRs0QtiiNkeiMK3eldabfI0TJGYKje5YMgP%2FVjTFRY&k=YdLYzpkxXUwwlie6HJ1GjcnC0BgWN3es&noverify=0&group_code=749988690" target="_blank" class="btn btn-blue btn-no-margin">
-                                <i class="fa fa-book"></i> 加入 QQ 群
+                                <i class="fa fa-qq"></i> 加入 QQ 群
                             </a>
                         </div>
                     </div>
