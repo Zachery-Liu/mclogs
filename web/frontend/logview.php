@@ -1,9 +1,6 @@
 <?php
-use Aternos\Codex\Minecraft\Translator\Translator;
 $id = new Id(substr($_SERVER['REQUEST_URI'], 1));
 $log = new Log($id);
-
-Translator::getInstance()->setLanguage("zh-CN");
 
 $title = "联萌日志服务";
 $description = "轻松粘贴、自动分析并分享您的 MC 日志。";
