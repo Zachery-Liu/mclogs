@@ -127,8 +127,9 @@
                         <div class="article-text">
                         将日志文件拖入框中，直接单击保存即可轻松将您的日志文件上传到我们的服务器中。<br>
                                 <div class="article-buttons">
-                            <a href="/" target="_blank" class="btn btn-blue btn-no-margin">
-                                <i class="fa fa-book"></i> 查看详细指引
+                                    <a href="/" target="_blank" class="btn btn-blue btn-no-margin">
+                                        <i class="fa fa-book"></i> 查看详细指引
+                                    </a>
                                 </div>
                         </div>
                     </div>
