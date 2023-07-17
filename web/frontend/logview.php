@@ -14,10 +14,10 @@ if (!$log->exists()) {
     $problems = $analysis->getProblems();
     $title = $codexLog->getTitle() . " [#" . $id->get() . "]";
     $lineNumbers = $log->getLineNumbers();
-    $lineString = $lineNumbers === 1 ? "line" : "lines";
+    $lineString = $lineNumbers === 1 ? "行" : "行";
 
     $errorCount = $log->getErrorCount();
-    $errorString = $errorCount === 1 ? "error" : "errors";
+    $errorString = $errorCount === 1 ? "个错误" : "个错误";
 
     $description = $lineNumbers . " " . $lineString;
     if ($errorCount > 0) {
