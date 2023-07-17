@@ -48,6 +48,7 @@ if (!$log->exists()) {
         <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
         <link rel="stylesheet" href="css/btn.css?v=071222" />
         <link rel="stylesheet" href="css/mclogs.css?v=071222" />
+        <link rel="stylesheet" href="css/log.css?v=071222" />
 
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 
