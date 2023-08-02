@@ -1,6 +1,7 @@
 <?php
 $id = new Id(substr($_SERVER['REQUEST_URI'], 1));
 $log = new Log($id);
+$shouldWrapLogLines = filter_var($_COOKIE["WRAP_LOG_LINES"] ?? "true", FILTER_VALIDATE_BOOLEAN);
 
 $title = "联萌日志服务";
 $description = "轻松粘贴、自动分析并分享您的 MC 日志。";
@@ -47,7 +48,7 @@ if (!$log->exists()) {
         <link href="https://fonts.geekzu.org/css?family=Roboto+Mono:300,400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
         <link rel="stylesheet" href="css/btn.css?v=071222" />
-        <link rel="stylesheet" href="css/mclogs.css?v=071222" />
+        <link rel="stylesheet" href="css/mclogs.css?v=071224" />
         <link rel="stylesheet" href="css/log.css?v=071222" />
 
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
@@ -88,7 +89,7 @@ if (!$log->exists()) {
             </div>
         </header>
         <div class="row dark log-row">
-            <div class="row-inner">
+            <div class="row-inner<?= $shouldWrapLogLines ? "" : " no-wrap"?>">
                 <?php if($log->exists()): ?>
                 <div class="log-info">
                     <div class="log-title">
@@ -172,7 +173,15 @@ if (!$log->exists()) {
                     <div class="btn btn-blue btn-small btn-notext" id="up-button">
                         <i class="fa fa-arrow-circle-up"></i>
                     </div>
+                    <div class="checkbox-container">
+                        <input type="checkbox" id="wrap-checkbox"<?=$shouldWrapLogLines ? " checked" : ""?>/>
+                        <label for="wrap-checkbox">Wrap log lines</label>
+                    </div>
                 </div>
+                <div class="log-notice">
+                该日志文件将会在最后一次访问之后90天删除。<br />
+                <a href="mailto:lianmoe@outlook.com?subject=举报%20不当文件/<?=$id->get(); ?>">举报不当文件</a>
+            </div>
                 <?php else: ?>
                 <div class="not-found">
                     <div class="not-found-title">404 - 未找到日志文件。</div>
@@ -186,14 +195,6 @@ if (!$log->exists()) {
                 <?php endif; ?>
             </div>
         </div>
-        <?php if($log->exists()): ?>
-        <div class="row row-notice dark">
-            <div class="row-inner">
-                该日志文件将会在最后一次访问之后90天删除。<br />
-                <a href="mailto:lianmoe@outlook.com?subject=举报%20不当文件/<?=$id->get(); ?>">举报不当文件</a>
-            </div>
-        </div>
-        <?php endif; ?>
         <div class="row footer">
             <div class="row-inner">
                 &copy; 2020-<?=date("Y"); ?> <a href="https://www.lianmoe.cn">联萌社区</a> | <a href="https://mclo.gs/">mclo.gs</a>

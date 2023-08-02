@@ -12,7 +12,7 @@
         <link href="https://fonts.geekzu.org/css?family=Roboto+Mono:300,400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet" />
         <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
         <link rel="stylesheet" href="css/btn.css" />
-        <link rel="stylesheet" href="css/mclogs.css?v=071222" />
+        <link rel="stylesheet" href="css/mclogs.css?v=071224" />
 
         <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 
