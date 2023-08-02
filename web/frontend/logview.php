@@ -175,7 +175,7 @@ if (!$log->exists()) {
                     </div>
                     <div class="checkbox-container">
                         <input type="checkbox" id="wrap-checkbox"<?=$shouldWrapLogLines ? " checked" : ""?>/>
-                        <label for="wrap-checkbox">Wrap log lines</label>
+                        <label for="wrap-checkbox">自动换行</label>
                     </div>
                 </div>
                 <div class="log-notice">
