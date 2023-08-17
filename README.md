@@ -1,19 +1,19 @@
-# 联萌日志托管项目
+# MC 日志托管项目
 
 **「轻松粘贴、自动分析并分享您的 MC 日志」**
 
 ## 关于
 
-本项目是 [mclo.gs](mclo.gs) 项目的非官方中文分支，用以解决原项目在国内无法访问、访问慢以及界面无中文等局限。
+本项目是 [mclo.gs](mclo.gs) 项目的社区自发的、非官方的中文分支，用以解决原项目在国内无法访问、访问慢以及界面无中文等局限。
 
-本项目为公益项目，仅能在能力范围内保证尽可能高的可用性。
+本项目提供的 [在线服务](https://logs.lianmoe.cn) 为 [联萌](https://www.lianmoe.cn) 维护的社区性质的公益服务，仅能在能力范围内保证尽可能高的可用性，且不对商业用途开放。
 
-欢迎加入联萌，见https://www.lianmoe.cn/joinus
+欢迎加入联萌，见 [联萌官网](https://www.lianmoe.cn)。 
 
 ## 说明
 
 1. 本项目并非完全按照上游项目的方向进行开发，但基本功能完全相同。
-> 例如原项目为了方便用户自建，将 url 相关内容拆分到单独的配置文件中，但本项目并未这样做。
+> 例如，原项目为了方便用户自建，将 url 相关配置拆分到单独的配置文件中，但本项目并未这样做。
 2. 本项目的 API 与原项目的 API 用法、标准完全相同，在修改相关插件配置文件后即可使用本项目服务。
 
 ## 功能
@@ -27,7 +27,9 @@
 
 ## 搭建
 
-本项目按照生产环境的个性化改动较多，请使用原项目自建，参见 [Development Setup](https://github.com/Lianmoe/mclogs#development-setup) 。
+本项目按照生产环境的个性化改动较多，如有需要，请使用原项目自建，参见 [Development Setup](https://github.com/Lianmoe/mclogs#development-setup) 。
+
+如有困难您可以加入 [社区交流群](https://qm.qq.com/cgi-bin/qm/qr?authKey=aifKEcRSapH3pgCIIQ58qJmRs0QtiiNkeiMK3eldabfI0TJGYKje5YMgP%2FVjTFRY&k=YdLYzpkxXUwwlie6HJ1GjcnC0BgWN3es&noverify=0&group_code=749988690) 获取社区帮助。
 
 ## 许可
 
