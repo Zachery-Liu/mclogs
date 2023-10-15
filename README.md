@@ -31,7 +31,7 @@
 
 本项目按照生产环境的个性化改动较多。
 
-如有需要，请使用原项目自建，参见 [Development Setup](https://github.com/Lianmoe/mclogs#development-setup) 。
+如有需要，请使用原项目自建，参见 [Development Setup](https://github.com/aternosorg/mclogs#development-setup) 。
 
 如有困难您可以加入 [社区交流群](https://qm.qq.com/cgi-bin/qm/qr?authKey=aifKEcRSapH3pgCIIQ58qJmRs0QtiiNkeiMK3eldabfI0TJGYKje5YMgP%2FVjTFRY&k=YdLYzpkxXUwwlie6HJ1GjcnC0BgWN3es&noverify=0&group_code=749988690) 获取社区帮助。
 
