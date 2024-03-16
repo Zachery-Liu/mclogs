@@ -2,7 +2,7 @@
 
 **「轻松粘贴、自动分析并分享您的 MC 日志」**
 
-** English version see original [mclogs](https://github.com/aternosorg/mclogs) **
+#### English version see original [mclogs](https://github.com/aternosorg/mclogs) 
 
 ## 关于
 
