@@ -2,6 +2,8 @@
 
 **「轻松粘贴、自动分析并分享您的 MC 日志」**
 
+** English version see original [mclogs](https://github.com/aternosorg/mclogs) **
+
 ## 关于
 
 本项目是 [mclo.gs](https://mclo.gs) 项目的 社区自发的、**非官方**的中文分支，用以解决原项目在国内无法访问、访问慢以及界面无中文等局限。
