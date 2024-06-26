@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d4cabbc51dfe107ab1452960e41df792",
+    "content-hash": "4f206b5655a28831d37e3391cd4f2724",
     "packages": [
         {
             "name": "aternos/codex",
@@ -51,16 +51,16 @@
         },
         {
             "name": "aternos/codex-minecraft",
-            "version": "v2.10.1",
+            "version": "v3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aternosorg/codex-minecraft.git",
-                "reference": "699d99b24297476b088449f0c4b30238f8ae8434"
+                "reference": "7206b8a36105a04c2694830b2706bd8e3cc0ba01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aternosorg/codex-minecraft/zipball/699d99b24297476b088449f0c4b30238f8ae8434",
-                "reference": "699d99b24297476b088449f0c4b30238f8ae8434",
+                "url": "https://api.github.com/repos/aternosorg/codex-minecraft/zipball/7206b8a36105a04c2694830b2706bd8e3cc0ba01",
+                "reference": "7206b8a36105a04c2694830b2706bd8e3cc0ba01",
                 "shasum": ""
             },
             "require": {
@@ -90,9 +90,9 @@
             "description": "PHP library to read, parse, print and analyse Minecraft log files.",
             "support": {
                 "issues": "https://github.com/aternosorg/codex-minecraft/issues",
-                "source": "https://github.com/aternosorg/codex-minecraft/tree/v2.10.1"
+                "source": "https://github.com/aternosorg/codex-minecraft/tree/v3.0.2"
             },
-            "time": "2024-04-30T09:10:47+00:00"
+            "time": "2024-06-19T15:40:09+00:00"
         },
         {
             "name": "aternos/sherlock",
